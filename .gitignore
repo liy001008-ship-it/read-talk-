@@ -1,0 +1,16 @@
+node_modules/
+.next/
+data/
+.env*
+!.env.example
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+.pnpm-store/
+data-e2e/
+.next-e2e/
+deliverables/
+
+# Keep locally generated screenshots out of public commits
+docs/screenshots/
